@@ -1,7 +1,7 @@
 
  .text
  .align 2
- .global main calculos
+ .global main 
  
  
  main:
@@ -52,11 +52,11 @@
 	
 	
  .data:
- cpc: float 0.4
- mensaje .asciz "Ingrese nota"
- num1: .word "%f/n"
- num2: .word "%f/n"
- num3: .word "%f/n"
- num4: .word "%f/n"
+	 cpc: float 0.4
+	 mensaje .asciz "Ingrese nota"
+	 num1: .word "%f/n"
+	 num2: .word "%f/n"
+	 num3: .word "%f/n"
+	 num4: .word "%f/n"
  
- notaProyecto: .float 0.61
+	 notaProyecto: .float 0.61
