@@ -4,10 +4,10 @@
  .global calculos
  
  calculos:
-	VLRD S0, [r0]
-	VLRD S1, [r1]
-	VLRD S2, [r2]
-	VLRD S3, [r3]
+	VMOV S0, [r0]
+	VMOV S1, [r1]
+	VMOV S2, [r2]
+	VMOV S3, [r3]
 	VADD.f32 S0, S0,S1
 	VADD.f32 S2, S2,S3
 	VADD.f32 S0,S1  	@@suma de las cuatro notas
@@ -16,5 +16,5 @@
 	VMUL.f32 S0,S0,S1	@@suma de las notas x 0.4
 	VSTR R0,[S0]			@@valor en r0
 	
-	MOV PC LR
+	MOV PC,LR
  
