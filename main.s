@@ -26,7 +26,7 @@
 	ldr r1,=num2
 	ldr r1,[r1]	
 	
-	
+		
 	ldr r0,=num3
 	ldr r1,=num
 	bl scanf

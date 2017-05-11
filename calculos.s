@@ -14,7 +14,7 @@
 	LDR R1, =cpc
 	VLDR S1, [R1]		@@en s1->0.4
 	VMUL.f32 S0,S0,S1	@@suma de las notas x 0.4
-	VSTR.32 R0,[S0]			@@valor en r0
+	VMOV R0,[S0]			@@valor en r0
 	
 	MOV PC,LR
  
