@@ -17,3 +17,5 @@
 	VMOV R0,S0			@@valor en r0
 	MOV PC,LR
  
+.data
+	 cpc: .float 0.4
