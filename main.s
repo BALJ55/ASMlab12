@@ -45,7 +45,7 @@
 	VLDR S0,[R0]	@@retorno de subritina
 	LDR R1, =notaProyecto
 	VLDR S1, [R1]
-	VSUB.f32 S0,S0,F1
+	VSUB.f32 S0,S0,S1
 	VSTR R3, [S0]
 	
 	ldr r0,=num1
