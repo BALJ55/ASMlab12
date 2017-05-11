@@ -15,6 +15,5 @@
 	VLDR S1, [R1]		@@en s1->0.4
 	VMUL.f32 S0,S0,S1	@@suma de las notas x 0.4
 	VMOV R0,S0			@@valor en r0
-	mov r0, [r0]
 	MOV PC,LR
  
