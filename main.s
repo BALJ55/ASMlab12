@@ -49,7 +49,7 @@
 	VMOV R3, S0
 	
 	ldr r0,=num1
-	ldr r1,R3
+	ldr r1,[R3]
 	bl scanf
 	mov r1,r0
 	
