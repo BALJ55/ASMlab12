@@ -56,7 +56,7 @@
 	
 	
  .data
-	 cpc: float 0.4
+	 cpc: .float 0.4
 	 mensaje .asciz "Ingrese nota"
 	 num1: .word "%f/n"
 	 num2: .word "%f/n"
