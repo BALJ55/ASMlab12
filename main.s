@@ -58,10 +58,10 @@
  .data
 	 cpc: .float 0.4
 	 mensaje: .asciz "Ingrese nota"
-	 num1: .word "%f"
-	 num2: .word "%f"
-	 num3: .word "%f"
-	 num4: .word "%f"
+	 num1: .asciz "%f"
+	 num2: .asciz "%f"
+	 num3: .asciz "%f"
+	 num4: .asciz "%f"
 	 num: 	.word 0
  
 	 notaProyecto: .float 0.61
