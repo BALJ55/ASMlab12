@@ -46,7 +46,7 @@
 	LDR R1, =notaProyecto
 	VLDR S1, [R1]
 	VSUB.f32 S0,S0,S1
-	VSTR R3, [S0]
+	VMOV R3, [S0]
 	
 	ldr r0,=num1
 	ldr r1,R3
