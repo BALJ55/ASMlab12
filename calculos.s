@@ -21,7 +21,3 @@
 	
 	
 	
-	
-.data
-
-cpc: float 0.4
